@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    margin: 0;
+    background-color: #f5f5f5;
+
+
+}
+button{
+    user-select: none;
+}
+
+input,textarea{
+    background-color:#f1f1f1;
+    padding:0.5rem;
+    border-radius:  0.2rem;
+    margin-bottom: 0.8rem;
+    color: #383838;
+    font-weight: 600;
+}
+label{
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #112728;
+}
+
+@media print {
+    body * {
+      visibility: hidden;
+    }
+    #printable-section, #printable-section * {
+      visibility: visible;
+    }
+    #printable-section {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
