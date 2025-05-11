@@ -97,7 +97,7 @@ const App = () => {
     className='w-auto min-w-fit mx-auto pt-2  pb-5'>
   
       {showInvoice ? 
-            (<div className='lg:w-[90%] lg:p-16  px-4 mx-auto mt-20 lg:mt-8'>
+            (<div className='lg:w-[90%] lg:p-16  px-4 mx-auto mt-20 '>
                      <Header handleDownloadPDF={handleDownloadPDF}
                      />
 
@@ -143,7 +143,7 @@ const App = () => {
             </div>)
               :
             (<div className="
-            max-w-7xl mx-auto
+            max-w-7xl mx-auto mt-20
             flex flex-col justify-center pt-6 px-16 pb-5 rounded bg-gray-50 shadow-2xl shadow-slate-800 ">
   {/* Your buisness Info */}
   <h1 className='text-2xl font-bold mb-4 border-b-4 border-black w-[40%]'>Business Information</h1>
